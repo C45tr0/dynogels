@@ -2,10 +2,11 @@
 
 const vogels = require('../../index');
 const chai = require('chai');
-const expect = chai.expect;
 const _ = require('lodash');
 const helper = require('../test-helper');
 const Joi = require('joi');
+
+const expect = chai.expect;
 
 chai.should();
 

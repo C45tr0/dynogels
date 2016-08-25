@@ -10,8 +10,9 @@ const Scan = require('../lib//scan');
 const Item = require('../lib/item');
 const realSerializer = require('../lib/serializer');
 const chai = require('chai');
-const expect = chai.expect;
 const sinon = require('sinon');
+
+const expect = chai.expect;
 
 chai.should();
 

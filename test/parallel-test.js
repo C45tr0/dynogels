@@ -4,11 +4,12 @@ const Table = require('../lib/table');
 const ParallelScan = require('../lib/parallelScan');
 const Schema = require('../lib/schema');
 const chai = require('chai');
-const expect = chai.expect;
 const assert = require('assert');
 const helper = require('./test-helper');
 const serializer = require('../lib/serializer');
 const Joi = require('joi');
+
+const expect = chai.expect;
 
 chai.should();
 

@@ -3,8 +3,9 @@
 const vogels = require('../index');
 const async = require('async');
 const _ = require('lodash');
-const AWS = vogels.AWS;
 const Joi = require('joi');
+
+const AWS = vogels.AWS;
 
 AWS.config.loadFromPath(`${process.env.HOME}/.ec2/credentials.json`);
 

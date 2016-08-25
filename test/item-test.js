@@ -4,10 +4,11 @@ const Item = require('../lib/item');
 const Table = require('../lib/table');
 const Schema = require('../lib/schema');
 const chai = require('chai');
-const expect = chai.expect;
 const helper = require('./test-helper');
 const serializer = require('../lib/serializer');
 const Joi = require('joi');
+
+const expect = chai.expect;
 
 chai.should();
 

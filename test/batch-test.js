@@ -2,13 +2,14 @@
 
 const helper = require('./test-helper');
 const chai = require('chai');
-const expect = chai.expect;
 const Schema = require('../lib/schema');
 const Item = require('../lib/item');
 const batch = require('../lib/batch');
 const Serializer = require('../lib/serializer');
 const Joi = require('joi');
 const _ = require('lodash');
+
+const expect = chai.expect;
 
 describe('Batch', () => {
   let serializer;

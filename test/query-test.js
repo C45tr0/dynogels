@@ -6,9 +6,10 @@ const Query = require('../lib//query');
 const Serializer = require('../lib/serializer');
 const Table = require('../lib/table');
 const chai = require('chai');
-const expect = chai.expect;
 const assert = require('assert');
 const Joi = require('joi');
+
+const expect = chai.expect;
 
 chai.should();
 

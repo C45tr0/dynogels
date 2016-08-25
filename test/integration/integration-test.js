@@ -2,12 +2,13 @@
 
 const vogels = require('../../index');
 const chai = require('chai');
-const expect = chai.expect;
 const async = require('async');
 const _ = require('lodash');
 const helper = require('../test-helper');
 const uuid = require('node-uuid');
 const Joi = require('joi');
+
+const expect = chai.expect;
 
 chai.should();
 
@@ -511,7 +512,7 @@ describe('Vogels Integration Tests', function () {
     });
 
     it('should return tweets using secondaryIndex and date object', done => {
-      const oneMinAgo = new Date(new Date().getTime() - 60 * 1000);
+      const oneMinAgo = new Date(new Date().getTime() - (60 * 1000));
 
       Tweet.query('userid-1')
       .usingIndex('PublishedDateTimeIndex')

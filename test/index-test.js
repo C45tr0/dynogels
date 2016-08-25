@@ -5,9 +5,10 @@ const AWS = require('aws-sdk');
 const helper = require('./test-helper');
 const Table = require('../lib/table');
 const chai = require('chai');
-const expect = chai.expect;
 const Joi = require('joi');
 const sinon = require('sinon');
+
+const expect = chai.expect;
 
 chai.should();
 
